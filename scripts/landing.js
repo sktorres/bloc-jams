@@ -17,7 +17,7 @@ var revealPoint = function(point) {
     }
 
      window.addEventListener('scroll', function(event) {
-         if (document.documentElement.scrollTop || document.body.scrollTop >= scrollDistance) {
+         if (pointsArray[0].getBoundingClientRect().top <= 500) {
              animatePoints(pointsArray);   
          }
      });
