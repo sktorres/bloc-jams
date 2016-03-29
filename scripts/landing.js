@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> checkpoint-24-collection
 var animatePoints = function() {
     var revealPoint = function() {
         $(this).css({
@@ -22,6 +25,7 @@ $(window).load(function() {
             animatePoints();   
         }
     });
+<<<<<<< HEAD
 });
 =======
 var pointsArray = document.getElementsByClassName('point');
@@ -68,3 +72,6 @@ window.addEventListener("scroll", function(event) {
      });
  }
 >>>>>>> checkpoint-23-animation
+=======
+});
+>>>>>>> checkpoint-24-collection
